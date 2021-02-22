@@ -1,0 +1,205 @@
+/* RESET */
+*{
+    margin:0;
+    padding: 0;
+    border:none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+
+body{
+    background-color:rgb(221,221,221);
+    font-size: 18px;
+    color:rgb(181,180,183);
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 375px;
+    margin:auto;
+    background-color: rgb(255,255,255); 
+}
+
+footer{
+    background-color: rgb(245,246,248);
+    color:rgb(88,90,95);
+    padding: 0 30px;
+    
+}
+
+h1,h2,h3{
+    color: hsl(210, 10%, 33%);
+    margin:auto;
+    padding:0;
+    text-align: center;
+    max-width: 90%;
+    
+}
+
+h1{
+    font-size: 32px;;
+    font-weight: 400px;
+}
+
+h3{
+    margin:auto;
+    margin-top: 40px;
+    margin-bottom: 0;
+    padding:0;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: semi-condensed;
+}
+
+li.link{
+    line-height: 50px;;
+    font-weight:lighter;
+    color:rgb(101,104,107);
+}
+
+p.p1{ /* 1st paragraph header */
+        font-size: 16px;
+        font-stretch:semi-expanded;
+        line-height: 25px;
+        margin: 20px auto;
+        width: 81%;
+}
+
+p{
+    font-size: 16px;
+    font-stretch:semi-expanded;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 15px 15px;
+}
+
+
+img{
+    max-width:95%;
+    margin:35px auto;
+}
+
+img.icon{
+    margin:0;
+    margin-top:50px;
+}
+
+button{
+    color:#ffffff;
+    width:80%;
+    height: 50px;
+    border-radius: 30px;
+    border: whitesmoke;
+    font-family:'Bai Jamjuree', sans-serif;
+    font-size:18px;
+    margin: 15px auto;
+    
+}
+
+div{
+    margin:0 20px;
+    margin-bottom:130px ;
+}
+
+/* Id's Styles */
+
+#btn-ios{
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 3px hsl(171, 76%, 35%);
+}
+
+#btn-mac{
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 3px hsl(233, 56%, 53%);
+}
+
+
+
+/* HEADER */
+
+.container div.background {
+    background-image: url('../img/bg-header-mobile.png');
+    width: 375px;
+    height: 313px;
+    display:flex;
+    align-items: center;
+    margin:0;
+    
+}
+
+img#c-logo{
+    margin:0 auto;
+    padding:0;
+}
+
+
+header{
+    margin-bottom: 150px;;
+}
+
+/* TRACK */
+
+
+/* ACCESS 
+div.access{
+    border: solid blue 5px;
+}
+
+ SUPERCHARGE 
+div.supercharge{
+    border: solid black 5px;
+}
+
+/* LOGOS */
+
+ul.logo-list li{
+    list-style: none;
+    display:list-item;
+    line-height: 3x0px;
+}
+
+div.logos{
+    margin-bottom: 130px;
+    border: solid red 5px;
+}
+ 
+
+img.img-logo{
+    width:35%;
+    height:35%;
+}
+
+/* CLIPBOARD */
+
+/* FOOTER */
+
+
+img.clip-logo{
+    width:20%;
+    height:20%;
+}
+
+ul.link-list li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:hsl(210, 10%, 33%);
+}
+
+ul.social-list li{
+    list-style: none;
+    display: inline-block;
+    margin:30px 20px 0 20px;
+}
+
+footer img.social{
+    justify-content: space-evenly;
+}
+
+
