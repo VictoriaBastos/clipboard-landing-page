@@ -158,7 +158,7 @@ header{
     padding: 0 6%;
 }
 .hero {
-    background-image: url('../img/bg-header-mobile.png');
+    background-image: url('img/bg-header-mobile.png');
     width:100%;
     height: 333px;
     display:flex;
@@ -178,7 +178,7 @@ img.hero-img {
 
 @media (min-width: 376px) {
     .hero{
-        background-image: url('../img/bg-header-desktop.png');
+        background-image: url('img/bg-header-desktop.png');
         height: 280px;
         align-items: flex-end;
         
